@@ -1,8 +1,3 @@
-
-
----
-
-````markdown
 # 🏛️ Analyzing U.S. Public Pension Plans (2001–2023) Using Python and Power BI
 
 ### 📊 Overview
