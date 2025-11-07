@@ -7,16 +7,16 @@ It integrates **Python for data preprocessing and analytics** and **Power BI for
 ---
 
 ### 🧠 Objectives
-1. Clean and preprocess pension data using Python.
-2. Perform exploratory data analysis (EDA) and visualize key trends.
-3. Build predictive models to estimate funded ratios.
+1. Clean and preprocess pension data using Python.  
+2. Perform exploratory data analysis (EDA) and visualize key trends.  
+3. Build predictive models to estimate funded ratios.  
 4. Develop a Power BI dashboard for interactive insights.
 
 ---
 
 ### 🐍 Python Analysis
-- Conducted using **Pandas**, **NumPy**, **Matplotlib**, and **Seaborn**.
-- Linear Regression model used to predict funded ratio trends.
+- Conducted using **Pandas**, **NumPy**, **Matplotlib**, and **Seaborn**.  
+- Linear Regression model used to predict funded ratio trends.  
 - Data cleaning and merging operations saved into `cleaned_data.csv`.
 
 **Key Visualizations:**
@@ -34,6 +34,39 @@ The Power BI report (`Pension_plan_Dasboard.pbix`) provides:
 - Overview of total assets, liabilities, and contributions.
 - Interactive charts by year and state.
 - Forecasts of funded ratios (2023–2028).
+
+#### 📊 Power BI Dashboard Pages
+
+The dashboard is divided into **three interactive pages**:
+
+---
+
+#### 🧭 1. Overview
+- Summarizes total assets, liabilities, contributions, and funded ratios.  
+- Displays key performance indicators (KPIs) and overall funding trends.  
+
+📸 *Dashboard Preview:*  
+![Overview Dashboard](overview.png)
+
+---
+
+#### 💰 2. Contributions & Liabilities (Details)
+- Shows detailed breakdowns of **employer vs. employee contributions**.  
+- Tracks **asset and liability growth** and compares them across states.  
+- Enables state-level filtering for granular insights.  
+
+📸 *Dashboard Preview:*  
+![Contributions and Liabilities Dashboard](contributions_liabilities.png)
+
+---
+
+#### 📈 3. Prediction & Trend Analysis (2023–2028)
+- Uses historical data up to 2022 to forecast funded ratios through 2028.  
+- Includes **confidence intervals** and **trend lines** for predictive insight.  
+- Supports interaction by year and plan for better exploration.  
+
+📸 *Dashboard Preview:*  
+![Prediction and Trend Analysis Dashboard](prediction_trends.png)
 
 ---
 
@@ -76,8 +109,8 @@ After analyzing the Public Plans Database using **Python** and visualizing resul
 ---
 
 ### ⚙️ Tools & Technologies
-- **Python** (Pandas, NumPy, Matplotlib, Seaborn, Scikit-learn)
-- **Power BI**
+- **Python** (Pandas, NumPy, Matplotlib, Seaborn, Scikit-learn)  
+- **Power BI**  
 - **Jupyter Notebook**
 
 ---
@@ -86,3 +119,17 @@ After analyzing the Public Plans Database using **Python** and visualizing resul
 1. Clone the repository:
    ```bash
    git clone https://github.com/<your-username>/US_Pension_Plan_Analysis.git
+````
+
+2. Open `Pensionplan.ipynb` in Jupyter Notebook to run the analysis.
+3. Open `Pension_plan_Dasboard.pbix` in Power BI Desktop to explore the dashboard.
+
+---
+
+### 👩‍💻 Author
+
+**Megha Rajeev**
+*Data Analyst | B.Tech in Information Technology*
+📫 [https://www.linkedin.com/in/megha-rajeev-p-b56a2a237/]
+
+
